@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/index.js"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="title">
+            <h1>Add a new transaction</h1>
+        </div>
+        <div class="content">
+            <label for="type">Type
+                <select name="type" id="type">
+                    <option value="Income">Income</option>
+                    <option value="Expense">Expense</option>
+                </select>
+            </label>
+
+            <label for="name">Name:
+                <input type="text" name="name" id="name">
+            </label>
+            <label for="amt">Amount:
+                <input type="number" name="amt" id="amt">
+            </label>
+
+            <button onclick="add()">Add to transaction</button>
+        </div>
+        <table>
+            <tr>
+                <th>Type</th>
+                <th>Name</th>
+                <th>Amount</th>
+                <th>options</th>
+            </tr>
+        </table>
+    </div>
+</body>
+</html>

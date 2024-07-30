@@ -1,0 +1,84 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 70%;
+    margin: 0 auto;
+}
+
+.container{
+    min-height: 500px;
+    width: 800px;
+    border: 1px solid black;
+}
+
+.title{
+    text-align: center;
+    height: 50px;
+    background-color: blue;
+    color: white;
+
+}
+
+.content{
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.content select{
+    width: 175px;
+    height: 30px;
+    float: right;
+}
+
+.content label{
+    width: 250px;
+    font-size: 20px;
+    float: left;
+}
+
+.content label input{
+    height: 20px;
+    float: right;
+}
+
+.container button{
+    width: 250px;
+    height: 30px;
+    background-color: blue;
+    color: white;
+    border-radius: 5px;
+    font-size: 15px;
+}
+
+table{
+    width: 95%;
+    margin: 0 auto;
+}
+
+table, tr, th, td{
+    border: 1px solid black;
+    border-collapse: collapse;
+    text-align: center;
+    height: 30px;
+}
+
+table th{
+    background-color: blue;
+    color: white;
+}
+
+table tr td{
+    background-color: antiquewhite;
+}
+
